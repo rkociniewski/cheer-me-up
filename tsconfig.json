@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": [
+    "stacks",
+    "services"
+  ],
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es2022",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "types": ["vitest/globals"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["prettier"],
+    "extends": ["airbnb-base", "airbnb-typescript/base", "eslint-config-prettier"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "ignorePatterns": [
+        "vitest.config.ts"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "camelcase": "off",
+        "import/prefer-default-export": "off",
+        "no-new": "off",
+        "no-underscore-dangle": "off",
+        "class-methods-use-this": "off",
+        "no-await-in-loop": "off",
+        "no-return-assign": "off",
+        "no-param-reassign": "off"
+    }
+}
